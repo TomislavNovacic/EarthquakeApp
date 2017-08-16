@@ -37,6 +37,7 @@ public final class QueryUtils {
      * parsing the given JSON response.
      */
     private static List<Earthquake> extractFeatureFromJson(String earthquakeJSON) {
+
         // If the JSON string is empty or null, then return early.
         if (TextUtils.isEmpty(earthquakeJSON)) {
             return null;
